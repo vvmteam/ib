@@ -1,0 +1,25 @@
+@font-face {
+    font-family: GameFont;
+    src: url("JF-Dot-AyuMin18.ttf");
+}
+
+@font-face {
+    font-family: ChineseFont;
+    src: url("Cubic_11_110.ttf");
+}
+
+@font-face {
+    font-family: KoreanFont;
+    src: url("DOSGothic.ttf");
+}
+
+@font-face {
+    font-family: VVM;
+    src: url("vvm.woff2");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+}
